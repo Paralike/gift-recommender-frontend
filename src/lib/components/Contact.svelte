@@ -26,14 +26,36 @@
 
   let invalidInputForm = false;
 
-  function handleSubmit(event: SubmitEvent) {
+  async function handleSubmit(event: SubmitEvent) {
     event.preventDefault();
-    const { firstName, lastName, email, subject, message } = contactForm;
-    console.log(contactForm);
+    if (!contactForm.email) {
+      invalidInputForm = true;
+      return;
+    }
+    invalidInputForm = false;
 
-    const mailToLink = `mailto:leomirandadev@gmail.com?subject=${subject}&body=Hello I am ${firstName} ${lastName}, my Email is ${email}. %0D%0A${message}`;
-    window.location.href = mailToLink;
+    const formData = new FormData();
+    formData.append("email", contactForm.email);
+
+    try {
+      const res = await fetch("https://script.google.com/macros/s/AKfycbw1bdrtnryNqKsyRqLQPasm0NUI0TgptotbLjpn_Qe4gYHgfvO59CLflZGOeiI10q7xqQ/exec", {
+        method: "POST",
+        body: formData,
+      });
+
+      if (res.ok) {
+        alert("Email saved successfully!");
+        contactForm.email = "";
+      } else {
+        alert("Failed to save email.");
+      }
+    } catch (error) {
+      console.error(error);
+      alert("Error sending email.");
+    }
   }
+
+
 
   const subjects = [
     { value: "Web Development", label: "Web Development" },
@@ -170,7 +192,7 @@
             </Alert>
           {/if}
 
-          <Button class="mt-4">I want to make my giting easier</Button>
+          <Button type="submit" class="mt-4">I want to make my giting easier</Button>
         </form>
       </CardContent>
       <CardFooter />
