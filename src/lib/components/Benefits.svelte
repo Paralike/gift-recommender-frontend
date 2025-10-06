@@ -63,7 +63,7 @@
         Life is hectic. And coming up with thoughful gifts on time shouldn't be another stress. You love your partner. But between work, family, and a million to-dos, remembering every anniversary, birthday, and name day can slip through the cracks. We’ve all been there — that sinking feeling when you realize you forgot a special day. Let’s make sure it never happens again.
       </p>
     </div>
-
+    <!--
     <div class="grid lg:grid-cols-2 gap-4 w-full">
       {#each benefitList as { icon, title, description }, index}
         <Card class="bg-muted/50 dark:bg-card hover:bg-background dark:hover:bg-background transition-all delay-75 group/number">
@@ -85,6 +85,6 @@
           </CardContent>
         </Card>
       {/each}
-    </div>
+    </div>-->
   </div>
 </section>

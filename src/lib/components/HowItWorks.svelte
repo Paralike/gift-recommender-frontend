@@ -15,7 +15,7 @@
       title: "You tell us the dates",
       description:
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem fugiat, quasi sint reiciendis quidem iure.",
-      image: "roboto.png",
+      image: "calendar_transparent.png",
     },
     {
       badgeTitle: "Discover",

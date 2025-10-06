@@ -5,11 +5,11 @@
     import { mode } from "mode-watcher";
     import { onMount } from 'svelte';
 
-    let imageSrc = 'hero-image-light.jpg';
+    let imageSrc = 'chill_dude.jpg';
     
     onMount(() => {
         mode.subscribe(currentMode => {
-            imageSrc = currentMode === 'dark' ? 'hero-image-dark.jpg' : 'hero-image-light.jpg';
+            imageSrc = currentMode === 'dark' ? 'chill_dude.jpg' : 'chill_dude.jpg';
         });
     });
 
@@ -52,7 +52,7 @@
                     />
                 </Button>
 
-                <Button variant="secondary" class="w-5/6 md:w-1/4 font-bold">
+                <!--<Button variant="secondary" class="w-5/6 md:w-1/4 font-bold">
                     <a
                         href="https://github.com/Zxce3/shadcn-sveltekit-landing-page.git"
                         target="_blank"
@@ -60,7 +60,7 @@
                     >
                         Github repository
                     </a>
-                </Button>
+                </Button>-->
             </div>
         </div>
 
