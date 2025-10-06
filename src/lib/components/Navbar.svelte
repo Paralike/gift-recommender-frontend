@@ -30,10 +30,10 @@
   }
 
   const routeList: RouteProps[] = [
-    { href: "#testimonials", label: "Testimonials" },
-    { href: "#team", label: "Team" },
+    { href: "#benefits", label: "Benefits" },
+    { href: "#features", label: "Features" },
+    { href: "#how-it-works", label: "How It Works" },
     { href: "#contact", label: "Contact" },
-    { href: "#faq", label: "FAQ" },
   ];
 
   const featureList: FeatureProps[] = [
@@ -59,7 +59,7 @@
 >
   <a href="/" class="font-bold text-lg flex items-center">
     <ChevronsDown class="bg-gradient-to-tr from-primary via-primary/70 to-primary rounded-lg w-9 h-9 mr-2 border text-white" />
-    ShadcnSvelte
+    Gift Recommendation
   </a>
 
   <!-- Mobile -->
@@ -75,7 +75,7 @@
             <SheetTitle class="flex items-center">
               <a href="/" class="flex items-center">
                 <ChevronsDown class="bg-gradient-to-tr from-primary/70 via-primary to-primary/70 rounded-lg size-9 mr-2 border text-white" />
-                ShadcnSvelte
+                Gift Recommendation
               </a>
             </SheetTitle>
           </SheetHeader>
@@ -99,7 +99,7 @@
     </Sheet>
   </div>
   <div class="hidden lg:flex items-center gap-1">
-    <DropdownMenu>
+    <!--<DropdownMenu>
       <DropdownMenuTrigger class={`${buttonVariants({ variant: "ghost", size: "default" })} text-base`}>
        Features
       </DropdownMenuTrigger>
@@ -126,7 +126,7 @@
           </ul>
         </div>
       </DropdownMenuContent>
-    </DropdownMenu>
+    </DropdownMenu>-->
 
     <!-- Navigation Links -->
     {#each routeList as { href, label }}
@@ -138,7 +138,7 @@
 
   <div class="hidden lg:flex">
     <ToggleTheme />
-    <Button size="sm" variant="ghost" aria-label="View on GitHub">
+    <!--<Button size="sm" variant="ghost" aria-label="View on GitHub">
       <a
         aria-label="View on GitHub"
         href="https://github.com/zxce3/shadcn-sveltekit-landing-page.git"
@@ -146,7 +146,7 @@
       >
         <GithubIcon class_="size-5" />
       </a>
-    </Button>
+    </Button>-->
   </div>
 </header>
 

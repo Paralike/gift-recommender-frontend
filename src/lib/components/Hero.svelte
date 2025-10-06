@@ -6,12 +6,19 @@
     import { onMount } from 'svelte';
 
     let imageSrc = 'chill_dude.jpg';
-    
+
     onMount(() => {
         mode.subscribe(currentMode => {
             imageSrc = currentMode === 'dark' ? 'chill_dude.jpg' : 'chill_dude.jpg';
         });
     });
+
+    function scrollToContact() {
+        const contactSection = document.getElementById('contact');
+        if (contactSection) {
+            contactSection.scrollIntoView({ behavior: 'smooth' });
+        }
+    }
 
 </script>
 
@@ -33,7 +40,7 @@
                 <h1>  
                 Gifting on 
                     <span
-                        class="text-transparent bg-gradient-to-r from-[#D247BF] to-primary bg-clip-text"
+                        class="text-transparent bg-gradient-to-r from-[hsl(25_60%_45%)] to-primary bg-clip-text"
                     >
                         autopilot
                     </span>
@@ -45,7 +52,7 @@
             </p>
 
             <div class="space-y-4 md:space-y-0 md:space-x-4">
-                <Button class="w-5/6 md:w-1/4 font-bold group/arrow">
+                <Button class="w-5/6 md:w-1/4 font-bold group/arrow" onclick={scrollToContact}>
                     Get Started
                     <ArrowRight
                         class="size-5 ml-2 group-hover/arrow:translate-x-1 transition-transform"

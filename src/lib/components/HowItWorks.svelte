@@ -14,46 +14,41 @@
       badgeTitle: "Important Dates",
       title: "You tell us the dates",
       description:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem fugiat, quasi sint reiciendis quidem iure.",
-      image: "calendar_transparent.png",
+        "Share the key milestones and deadlines that matter most to you. We’ll make sure everything stays on track and help you plan around the moments that count.",      image: "calendar_transparent.png",
     },
     {
-      badgeTitle: "Discover",
+      badgeTitle: "Gather important information",
       title: "You tell us something about your partner",
       description:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem fugiat, sint reiciendis quidem iure veritatis optio facere tenetur.",
-      image: "runner.png",
+        "Share a few details about your partner — their interests, passions, or what makes them unique. The more we know, the better we can tailor your experience together.",      image: "form_transparent.png",
     },
     {
-      badgeTitle: "Innovate",
+      badgeTitle: "Stay Ahead",
       title: "We remind you early",
       description:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem fugiat, odit similique quasi sint.",
-      image: "pacheco.png",
+        "Get gentle reminders before important moments arrive. We’ll help you stay proactive, plan ahead, and never miss an opportunity to make things better.",      image: "notification_transparent.png",
     },
     {
-      badgeTitle: "Collaborate",
+      badgeTitle: "Thoughtful Connections",
       title: "We suggest personalized gifts",
       description:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem fugiat, quasi sint reiciendis quidem iure.",
-      image: "gamestation.png",
+        "Based on what you share, we’ll recommend meaningful, personalized gift ideas that show how well you know them — and make every moment a little more special.",      image: "options_transparent.png",
     },
     {
-      badgeTitle: "Collaborate",
+      badgeTitle: "Effortless Gifting",
       title: "We send you the gift wrapped.",
       description:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem fugiat, quasi sint reiciendis quidem iure.",
-      image: "gamestation.png",
+        "Sit back and relax — we’ll take care of the wrapping and delivery. Your gift will arrive beautifully packaged and ready to surprise the person who matters most.",      image: "gamestation.png",
     },
   ];
+
 </script>
 
-<section id="features" class="container py-24 sm:py-32">
+<section id="how-it-works" class="container py-24 sm:py-32">
   <div class="text-center mb-8">
     <h2 class="text-lg text-primary text-center mb-2 tracking-wider">
       How It Works
     </h2>
-
     <h2 class="text-3xl md:text-4xl text-center font-bold">
       Step-by-Step Process
     </h2>

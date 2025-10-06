@@ -28,4 +28,4 @@
 <Pricing />-->
 <Contact />
 <!--<Faq />-->
-<Footer />
+<!--<Footer />-->
