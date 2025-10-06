@@ -1,83 +1,93 @@
-# Shadcn/Svelte Landing Page Template
+# Gift Recommender Frontend
 
-### This is a project conversion from <a href="https://github.com/leoMirandaa/shadcn-vue-landing-page" target="_blank">Shadcn-Vue</a> to SvelteKit
+This is the frontend application for the Gift Recommender project, built with SvelteKit, TypeScript, and Tailwind CSS. It leverages Shadcn/Svelte components for a modern and responsive user interface.
 
-## <a href="https://www.shadcn-svelte.com/" target="_blank">Shadcn-Svelte</a> + <a href="https://kit.svelte.dev/" target="_blank">SvelteKit</a> + <a href="https://www.typescriptlang.org/" target="_blank">TypeScript</a> + <a href="https://tailwindcss.com/" target="_blank">Tailwind</a>.
+## Technologies Used
+
+*   **[Shadcn-Svelte](https://www.shadcn-svelte.com/)**: UI component library.
+*   **[SvelteKit](https://kit.svelte.dev/)**: Web framework for building Svelte applications.
+*   **[TypeScript](https://www.typescriptlang.org/)**: Typed superset of JavaScript.
+*   **[Tailwind CSS](https://tailwindcss.com/)**: Utility-first CSS framework.
 
 ![alt text](./static/demo-image.png)
 
-Live demo is now available: <a href="https://shadcn-sveltekit-landing-page.zxce3.net" target="_blank">Live Demo</a>
+## Live Demo
+
+A live demo of the application will be available soon.
 
 ## Sections
 
-- [x] Navbar
-- [x] Sidebar(mobile)
-- [x] Hero
-- [x] Sponsors
-- [x] Benefits
-- [x] Features
-- [x] Services
-- [x] HowItWorks
-- [x] Testimonials
-- [x] Pricing
-- [x] Frequently Asked Questions(FAQ)
-- [x] Team
-- [x] Community
-- [x] Contact
-- [x] Footer
+The application includes the following key sections:
+
+*   Navbar
+*   Sidebar (mobile)
+*   Hero
+*   Benefits
+*   Features
+*   Services
+*   How It Works
+*   Pricing
+*   FAQ
+*   Community
+*   Contact
+*   Footer
 
 ## Features
 
-- [x] Fully Responsive Design
-- [x] User Friendly Navigation
-- [x] Dark Mode
-- [x] Meta tags
+*   Fully Responsive Design
+*   User-Friendly Navigation
+*   Dark Mode Support
+*   Optimized Meta Tags
 
-## How to install
+## How to Install
 
-1. Clone this repository:
+1.  **Clone this repository:**
 
-```bash
-git clone https://github.com/zxce3/shadcn-sveltekit-landing-page.git
-```
+    ```bash
+    git clone https://github.com/your-username/gift-recommender-frontend.git
+    ```
 
-2. Go into project
+2.  **Navigate to the project directory:**
 
-```bash
-cd shadcn-sveltekit-landing-page
-```
+    ```bash
+    cd gift-recommender-frontend
+    ```
 
-3. Install dependencies
+3.  **Install dependencies:**
 
-```bash
-npm install
-# or
-pnpm install
-# or
-yarn install
-```
+    ```bash
+    npm install
+    # or
+    pnpm install
+    # or
+    yarn install
+    # or
+    bun install
+    ```
 
-4. Run development server
+4.  **Run the development server:**
 
-```bash
-npm run dev
-# or
-pnpm dev
-# or
-yarn dev
-```
+    ```bash
+    npm run dev
+    # or
+    pnpm dev
+    # or
+    yarn dev
+    # or
+    bun dev
+    ```
 
-5. Open your browser and visit `http://localhost:5173`
+5.  **Open your browser** and visit `http://localhost:5173`.
 
 ## Building for Production
 
-To create a production version of your app:
+To create a production-ready version of your app:
 
 ```bash
 npm run build
 ```
 
-You can preview the production build with:
+You can preview the production build locally with:
 
 ```bash
 npm run preview
