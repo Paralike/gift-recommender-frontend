@@ -9,7 +9,10 @@
     "preview": "vite preview",
     "prepare": "svelte-kit sync || echo ''",
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
-    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
+    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+    "deploy": "npm run build && gh-pages -d build -t",
+    "gh-pages": "gh-pages -d build -t"
+    
   },
   "devDependencies": {
     "@internationalized/date": "^3.7.0",
