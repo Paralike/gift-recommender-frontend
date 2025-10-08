@@ -13,7 +13,17 @@ const config = {
 		// See https://svelte.dev/docs/kit/adapters for more information about adapters.
 		adapter: adapter(),
 		paths: {
-			base:process.env.NODE_ENV === 'production'?'/gift-recommender-frontend':''
+			base: process.env.NODE_ENV === 'production' ? '/gift-recommender-frontend' : ''
+		},
+		prerender: {
+			entries: ['*'], // Prerender all pages, and handle 404 errors
+			handleHttpError: ({ path, referrer, message }) => {
+				// Ignore 404 errors during prerendering, especially for the root path
+				if (path === '/404' || path === '/') {
+					return;
+				}
+				throw new Error(message);
+			}
 		}
 	}
 };
