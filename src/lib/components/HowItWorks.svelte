@@ -14,31 +14,36 @@
       badgeTitle: "Important Dates",
       title: "You tell us the dates",
       description:
-        "Share the key milestones and deadlines that matter most to you. We’ll make sure everything stays on track and help you plan around the moments that count.",      image: "calendar_transparent.png",
+        "Share the key milestones and deadlines that matter most to you. We’ll make sure everything stays on track and help you plan around the moments that count.",
+        image: "date_picker.svg",
     },
     {
       badgeTitle: "Gather important information",
       title: "You tell us something about your partner",
       description:
-        "Share a few details about your partner — their interests, passions, or what makes them unique. The more we know, the better we can tailor your experience together.",      image: "form_transparent.png",
+        "Share a few details about your partner — their interests, passions, or what makes them unique. The more we know, the better we can tailor your experience together.",
+        image: "profile_details.svg",
     },
     {
       badgeTitle: "Stay Ahead",
       title: "We remind you early",
       description:
-        "Get gentle reminders before important moments arrive. We’ll help you stay proactive, plan ahead, and never miss an opportunity to make things better.",      image: "notification_transparent.png",
+        "Get gentle reminders before important moments arrive. We’ll help you stay proactive, plan ahead, and never miss an opportunity to make things better.",
+        image: "reminder.svg",
     },
     {
       badgeTitle: "Thoughtful Connections",
       title: "We suggest personalized gifts",
       description:
-        "Based on what you share, we’ll recommend meaningful, personalized gift ideas that show how well you know them — and make every moment a little more special.",      image: "options_transparent.png",
+        "Based on what you share, we’ll recommend meaningful, personalized gift ideas that show how well you know them — and make every moment a little more special.",
+        image: "options2.svg",
     },
     {
       badgeTitle: "Effortless Gifting",
       title: "We send you the gift wrapped.",
       description:
-        "Sit back and relax — we’ll take care of the wrapping and delivery. Your gift will arrive beautifully packaged and ready to surprise the person who matters most.",      image: "gamestation.png",
+        "Sit back and relax — we’ll take care of the wrapping and delivery. Your gift will arrive beautifully packaged and ready to surprise the person who matters most.",
+      image: "gift.svg",
     },
   ];
 
