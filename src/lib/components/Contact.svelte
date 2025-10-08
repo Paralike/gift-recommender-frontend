@@ -38,7 +38,7 @@
     formData.append("email", contactForm.email);
 
     try {
-      const res = await fetch("https://script.google.com/macros/s/AKfycbw1bdrtnryNqKsyRqLQPasm0NUI0TgptotbLjpn_Qe4gYHgfvO59CLflZGOeiI10q7xqQ/exec", {
+      const res = await fetch("https://script.google.com/macros/s/AKfycbwV-CEFbulJyS4JnymilOf79YpG_4uzyCEwQJioebHdH8C2N0RtmLdLcLcgZGkVW0HRSw/exec", {
         method: "POST",
         body: formData,
       });
