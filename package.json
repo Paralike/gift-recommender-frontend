@@ -12,11 +12,10 @@
     "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
     "deploy": "npm run build && gh-pages -d build -t",
     "gh-pages": "gh-pages -d build -t"
-    
   },
   "devDependencies": {
     "@internationalized/date": "^3.7.0",
-    "@sveltejs/adapter-static": "^3.0.8",
+    "@sveltejs/adapter-static": "^3.0.10",
     "@sveltejs/kit": "^2.16.0",
     "@sveltejs/vite-plugin-svelte": "^5.0.0",
     "@tailwindcss/container-queries": "^0.1.1",
@@ -27,6 +26,7 @@
     "clsx": "^2.1.1",
     "embla-carousel-svelte": "^8.5.2",
     "formsnap": "^2.0.0",
+    "gh-pages": "^6.3.0",
     "lucide-svelte": "^0.475.0",
     "mode-watcher": "^0.5.1",
     "paneforge": "^1.0.0-next.4",
